@@ -17,6 +17,9 @@ const Navbar = () => {
     id: 'projects',
     label: 'Projects'
   }, {
+    id: 'certifications',
+    label: 'Certifications'
+  }, {
     id: 'contact',
     label: 'Contact Me'
   }];
@@ -64,7 +67,7 @@ const Navbar = () => {
         <div className="flex flex-col items-center justify-center h-full my-0 py-[26px]">
           <div className="h-40 w-[1px] bg-slate opacity-30 mb-8"></div>
           
-          <div className="flex flex-col items-center space-y-16">
+          <div className="flex flex-col items-center space-y-12">
             {navLinks.map(link => <button key={link.id} onClick={() => handleNavClick(link.id)} className={`group flex flex-col items-center`}>
                 <span className={`text-sm vertical-text transform rotate-90 origin-center transition-colors duration-300 ${activeSection === link.id ? 'text-teal' : 'text-slate-light group-hover:text-slate-lighter'}`}>
                   {link.label}
