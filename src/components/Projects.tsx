@@ -75,6 +75,13 @@ const Projects = () => {
       featured: true
     },
     {
+      title: "Hotel Booking Cancellation Prediction System",
+      description: "Built a predictive system to forecast hotel booking cancellations and support revenue optimization. Developed an end-to-end ML pipeline with automated data ingestion and Flask-based prediction interface.",
+      technologies: ["Python", "LightGBM", "MLflow", "Docker", "Jenkins", "Flask"],
+      githubLink: "https://github.com/neerajprasad209/hotel_reservation",
+      featured: true
+    },
+    {
       title: "Gluco Guard: Advanced Diabetes Predictor",
       description: "A healthcare analytics tool achieving 89% accuracy, integrating cloud-deployed AI models for personalized diabetes risk prediction.",
       technologies: ["Python", "TensorFlow", "Scikit-learn", "Flask", "AWS"],
